@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logo"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:foregroundGravity="left"
+    android:rotationX="0">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:background="@color/back_yel"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_noname" />
+
+    <TextView
+        android:id="@+id/textForAppBar"
+        android:layout_width="283dp"
+        android:layout_height="64dp"
+        android:background="@color/back_yel"
+        android:gravity="center_vertical"
+        android:text="@string/appbar_text"
+        android:textColor="@color/text_red"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Logo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_noname" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
